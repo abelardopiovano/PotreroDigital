@@ -6,39 +6,118 @@ background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
+
+
 header
 {
-    background-color: rgb(155, 125, 125);
-    position:relative;
-    border: 10px solid;
-    border-color: blueviolet;
-    text-align:center;
-    
-
-    
-       
+    background-color: aqua;
+    border: 5px solid;
+    padding: 5px;
+    text-align: center;
+    opacity: .9;
+    color: blue;
     
 }
-
-
 nav
 {
-    color: rgb(11, 165, 114);
-    background-color: rgb(113, 106, 119);
-    text-align:center;
-    padding: 20px;
-    border: 10px solid;
-    border-color: blueviolet;
+background-color: aqua;
+border: 5px solid;
+padding: 5px;
+text-align: center;
+opacity: .9;
+color: blue;  
+
+margin-top: 5px;
+margin-bottom: 5px;
 }
-.textheader
+
+main
 {
-    color: aqua;
+    
+    width: 74%;
+    float: left;
+    height: 1300px;
+    background-color: aqua;
+    border: 5px solid;
+    padding: 5px;
+    text-align: center;
+    opacity: .9;
+    color: blue;
+    box-sizing: border-box;
+    
+    
+    
 }
+
+aside
+{
+    
+    width: 25%;
+    height: 1300px;
+    float: right;
+    background-color: aqua;
+    border: 5px solid;
+    padding: 5px;
+    text-align: center;
+    opacity: .9;
+    color: blue;
+    box-sizing: border-box;
+       
+}
+
+footer
+{
+    
+    text-align: center;
+    border: 5px solid;
+    border-color: blue;
+    background-color: aqua;
+    opacity: .9;
+}
+
+
+.contenedor1
+{
+    display: table;
+    width: 100%;
+    
+    box-sizing: border-box;
+}
+.menuCSS3 ul {
+    text-align: center;
+    display:inline-flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+.menuCSS3 a {
+    
+    padding: 2em;
+    
+    text-decoration: none;
+    color: #1d3689;
+}
+.menuCSS3 a:hover {
+    background-color:azure;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+
+
+
+
+#h1header
+{
+    color: black;
+}
+
 .titulo
 {
     text-align: center;
-    font-size: 70px;
-    color:rgb(71, 167, 63);
+    font-size: 50px;
+    color:rgb(55, 136, 47);
     text-decoration: underline;
 }
 
@@ -50,23 +129,23 @@ nav
 .parrafo-titulo
 {
     text-align: center;
-    color:rgb(205, 152, 226);
+    color:rgb(52, 18, 66);
     text-decoration: underline;
 }
 
 .parrafo{
      text-align: justify;
-     color:rgb(194, 216, 192);
+     color:rgb(30, 34, 30);
 
 }
 
 h2{
     text-decoration: underline;
-    color:rgb(161, 194, 158);
+    color:rgb(42, 73, 39);
 }
 
 li{
-    color: rgb(131, 196, 125);;
+    color: rgb(15, 36, 13);;
 }
 
 img{
@@ -81,3 +160,77 @@ p{
 .mover{
     text-align: center;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+#contactoForm
+{
+   
+   
+  display: fle;
+
+   
+   border: #1d3689 solid;
+  margin: 1px;
+   
+
+
+
+
+}
+
+
+
+.contctoForm.header
+{
+    color: #c0a1a9;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.contctoForm.bigicon {
+    font-size: 35px;
+    color: #5e7d98;
+}
+
+.container1{
+
+    background-color: #25d366;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-family: Verdana,sans-serif;
+  }
+  
+  h1:hover {
+    background-color: yellow;
+  }
+
+  h2:hover {
+    background-color: green;
+  }
