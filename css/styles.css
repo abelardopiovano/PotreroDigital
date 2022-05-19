@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Metamorphous', cursive;
+    src: url('fonts/Metamorphous-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+
+
+h1
+{
+    font-family: Metamorphous,cursive;
+    font-size:90em,100rem;
+}
+
+h2
+{
+    font-family: 'Dancing Script', cursive;
+    font-size:100em;
+}
+
 body
 {
 background-image: url(../imagenes/cocina.gif);
@@ -10,17 +32,18 @@ background-attachment: fixed;
 
 header
 {
-    background-color: aqua;
+    background-color: rgb(0, 170, 255);
     border: 5px solid;
     padding: 5px;
     text-align: center;
     opacity: .9;
     color: blue;
+    border-radius: 10%;
     
 }
 nav
 {
-background-color: aqua;
+background-color: rgb(0, 255, 136);
 border: 5px solid;
 padding: 5px;
 text-align: center;
@@ -29,6 +52,7 @@ color: blue;
 
 margin-top: 5px;
 margin-bottom: 5px;
+border-radius: 10%;
 }
 
 main
@@ -37,13 +61,14 @@ main
     width: 74%;
     float: left;
     height: 1300px;
-    background-color: aqua;
+    background-color: rgb(0, 255, 200);
     border: 5px solid;
     padding: 5px;
     text-align: center;
     opacity: .9;
     color: blue;
     box-sizing: border-box;
+    border-radius: 15%;
     
     
     
@@ -62,6 +87,7 @@ aside
     opacity: .9;
     color: blue;
     box-sizing: border-box;
+    border-radius: 15%;
        
 }
 
@@ -233,4 +259,14 @@ a {
 
   h2:hover {
     background-color: green;
+  }
+
+  .ventana-video
+  {
+      border-radius: 10%;
+      border: #82d61b solid;
+      box-sizing: border-box;
+      height:45vh;
+      width: 100vw;
+      
   }
