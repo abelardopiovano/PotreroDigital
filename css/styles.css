@@ -263,10 +263,36 @@ a {
 
   .ventana-video
   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 10%;
       border: #82d61b solid;
       box-sizing: border-box;
-      height:45vh;
-      width: 100vw;
-      
+      height:70vh;
+      width: 70vw;
+    
+  }
+
+
+  .ventana-video iframe
+  {
+      width:60vw;
+      height:60vh
+  }
+
+  .boxx
+  {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boxx .img
+  {
+    width:10vw;
+    height:10vh
+   
+       
   }
