@@ -1,9 +1,117 @@
+.grid-container
+{
+    font-size: 30px;
+    
+    display: grid;
+    grid-template-columns:  75% 25%;
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+
+}
+
+.grid-container > *
+{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer, nav
+{
+    grid-column: 1/span 3;
+   
+    
+}
+
+footer
+{
+    grid-column: 1/span 3 ;
+  
+}
+
+@media all and (max-width:600px)
+{
+    aside,article,nav
+    {
+        grid-column: 1 /span 3;
+        
+        
+        
+    }
+    
+    
+    
+
+    .grid-container
+    {
+    
+    grid-template-rows: repeat(1, 100px);
+    
+
+    }
+}
+
+@media all and (max-width:600px)
+{
+    .boxx 
+    {
+        visibility: hidden;
+    }
+    
+    
+}
+
+@media all and (min-width:600px)
+{
+    .float 
+    {
+        visibility: hidden;
+
+    }
+    
+    
+    
+}
+
+
+
+
+
+
 @font-face {
     font-family: 'Metamorphous', cursive;
     src: url('fonts/Metamorphous-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
+
+
+
+header
+{
+    grid-column: 1/span3;
+    background-color: rgb(0, 170, 255);
+    border: 5px solid;
+    padding: 5px;
+    text-align: center;
+    opacity: .9;
+    color: blue;
+    border-radius: 10%;
+    
+}
+
+footer
+{
+    grid-column: 1/span3 ;
+    text-align: center;
+    border: 5px solid;
+    border-color: blue;
+    background-color: aqua;
+    opacity: .9;
+}
+
+
 
 
 
@@ -17,7 +125,7 @@ h1
 h2
 {
     font-family: 'Dancing Script', cursive;
-    font-size:100em;
+    font-size:90em;
 }
 
 body
@@ -30,17 +138,7 @@ background-attachment: fixed;
 }
 
 
-header
-{
-    background-color: rgb(0, 170, 255);
-    border: 5px solid;
-    padding: 5px;
-    text-align: center;
-    opacity: .9;
-    color: blue;
-    border-radius: 10%;
-    
-}
+
 nav
 {
 background-color: rgb(0, 255, 136);
@@ -58,7 +156,7 @@ border-radius: 10%;
 main
 {
     
-    width: 74%;
+    width: 100%;
     float: left;
     height: 1300px;
     background-color: rgb(0, 255, 200);
@@ -77,9 +175,7 @@ main
 aside
 {
     
-    width: 25%;
-    height: 1300px;
-    float: right;
+  
     background-color: aqua;
     border: 5px solid;
     padding: 5px;
@@ -91,15 +187,7 @@ aside
        
 }
 
-footer
-{
-    
-    text-align: center;
-    border: 5px solid;
-    border-color: blue;
-    background-color: aqua;
-    opacity: .9;
-}
+
 
 
 .contenedor1
@@ -171,6 +259,7 @@ h2{
 }
 
 li{
+    font-size: 60%;
     color: rgb(15, 36, 13);;
 }
 
@@ -188,6 +277,7 @@ p{
 }
 
 .float{
+    
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -200,15 +290,19 @@ p{
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+  
 }
 .float:hover {
+   
 	text-decoration: none;
 	color: #25d366;
   background-color:#fff;
+  
 }
 
 .my-float{
 	margin-top:16px;
+    
 }
 
 #contactoForm
