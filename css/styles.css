@@ -3,9 +3,9 @@
     font-size: 30px;
     
     display: grid;
-    grid-template-columns:  75% 25%;
+    grid-template-columns:  74% 25%;
     grid-template-rows: repeat(2, 100px);
-    gap: 10px;
+    gap: 7px;
 
 }
 
